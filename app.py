@@ -6,8 +6,10 @@ from jinja2 import Environment, FileSystemLoader
 
 ENV = Environment(loader=FileSystemLoader('templates'))
 
+
 def test_method():
     print("This is a test method")
+
 
 def get_params():
     params1 = {'key': os.environ.get('key', ''),
