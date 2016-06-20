@@ -7,7 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 ENV = Environment(loader=FileSystemLoader('templates'))
 
 
-def test_method_33():
+def test_method_34():
     print("This is a test method")
 
 
