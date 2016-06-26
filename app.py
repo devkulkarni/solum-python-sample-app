@@ -6,7 +6,6 @@ from jinja2 import Environment, FileSystemLoader
 
 ENV = Environment(loader=FileSystemLoader('templates'))
 
-This line will fail pep8 tests;;
 
 def get_params():
     params1 = {'key': os.environ.get('key', ''),
